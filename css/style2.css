@@ -1,0 +1,296 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../Images/Emily\ Logo\ Orange.png");
+    background-color: #FFFAF3;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+  }
+  
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    font-size: 2vh;
+    font-weight: 500;
+  }
+  
+  .navigation {
+    display: inline-block;
+    width: 90%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    display:flex;
+    justify-content: flex-end;
+  }
+  li {
+    display: block;
+    float: right;
+    padding-top: 20px;
+  }
+  li a {
+    display: block;
+    text-align: center;
+    padding: 10px 8px;
+    color: #303030;
+    text-decoration: none;
+  }
+  li a:hover {
+    color: #AAAEAE;
+    
+  }
+  li a:visited {
+    color: #AAAEAE;
+    text-decoration: underline;
+  }
+    .icons {
+      display: flex;
+      align-items: left;
+    }
+    .icons img {
+      margin-left: 20%;
+      width: 10vh;
+      height: 10vh;
+    }
+    .heroGrid {
+      text-align: center;
+      margin: 15%;
+    }
+  h1{
+      font-size: 5em;
+      font-weight: 900;
+      justify-content: left;
+  }
+  h3 {
+      font-size: 2em;
+      font-weight: 500;
+  }
+
+  h4 {
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+  }
+  
+  .copyright {
+    display: flex;
+    font-size: 0.75em;
+    margin-left: 1%;
+  }
+  
+  .socials {
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .socials img {
+    margin-left: 0.75%;
+    width: 3vh;
+    height: 3vh;
+  }
+  
+  #pageTitle {
+    margin-left: 5%;
+  }
+
+  .container {
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+  
+  .uxTitle {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .uxDescription {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+ #workTitle {
+  display: flex;
+  width: 90%;
+  justify-content: left;
+  font-weight: 500;
+  font-size: 1.25em;
+  padding-left: 5%;
+  padding-right: 5%;
+ }
+
+ #workTitle a:hover {
+  color: #AAAEAE;
+  font-weight:900;
+  font-size: 1.3em;
+  text-decoration: none;
+ }
+
+.col-sm-8 {
+  height:400px;
+  background-image: url("../Images/potion.pdf");
+  background-color: pink;
+}
+
+  /* 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.workImage {
+  align-content: center;
+  margin-left: 5%;
+}
+
+
+*{outline: 1px solid blue;}
+
+#potion {
+  display: flex;
+  width: 90%;
+  justify-content: left;
+  font-weight: 500;
+  font-size: 1.25em;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: orange;
+
+}
+
+#woman {
+  display: flex;
+  width: 90%;
+  justify-content: left;
+  font-weight: 500;
+  font-size: 1.25em;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: orange;
+
+}
+
+
+#potion a:hover {
+  color: #AAAEAE;
+  font-weight:900;
+  font-size: 1.3em;
+  text-decoration: none;
+  background-color: blue;
+ }
+
+ #potion:hover ~ #woman{ 
+  background-color: black;
+ }
+
+ .col-sm-4:hover ~ .col-sm-8{ 
+  height:400px;
+  background-color: black;
+ }
+
+ */
+
+
+
+
+ #workGrid {
+  justify-content: center;
+  margin: 5% 10% 15% 10%;
+  display: grid;
+  grid-template-columns: 35% 65%;
+ }
+
+ #workTitle {
+  text-align: left;
+  margin-bottom: 5%;
+  background-color: #F2DECC;
+  height: 250px;
+  padding-left: 15%;
+ }
+
+ h5 {
+   margin-top:30%;
+ }
+
+ h5 a {
+  color:#303030;
+  font-weight:500;
+  font-size: 1.75em;
+  text-decoration: none;
+ }
+
+ #workTitle a:hover {
+  font-weight:900;
+  font-size: 2em;
+  text-decoration: none;
+  color:#303030;
+ }
+
+ #workTitle a:visited{
+  color: #AAAEAE;
+  font-weight:900;
+  font-size: 1.75em;
+  text-decoration: none;
+ }
+
+ #workImg {
+  margin-bottom: 5%;
+  background-color: #F2DECC;
+  height: 250px;
+ }
+
+ #workImg img {
+   float: right;
+ }
+
+
+ @media only screen and (max-width:640px) 
+ {#workGrid {
+   display: grid;
+   align-content: flex-start;
+   grid-template-columns: 100%;
+ }
+
+ #workTitle {
+  text-align: left;
+  background-color: #F2DECC;
+  height: 70px;
+  width: 275px;
+ }
+
+ h5 {
+   margin-top: 5%;
+   text-align: left;
+ }
+
+ #workImg {
+  margin-bottom: 10%;
+  background-color: #F2DECC;
+  height: 250px;
+  width: 349px;
+ }
+
+ #workImg img {
+   float:left;
+   width: 350px;
+ }
+
+
+}
