@@ -116,6 +116,7 @@ body {
   .container {
     margin-top: 15%;
     margin-bottom: 15%;
+    font-size: 2em;
   }
   
   .uxTitle {
@@ -163,7 +164,6 @@ body {
   align-content: center;
   margin-left: 5%;
 }
-
 
 *{outline: 1px solid blue;}
 
@@ -314,6 +314,10 @@ body {
   display:none;
 }
 
+.container {
+  margin-top: 25%;
+  margin-bottom: 15%;
+}
 /*
 .menuImg {
   display:flex;
